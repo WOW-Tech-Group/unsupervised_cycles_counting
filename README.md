@@ -13,11 +13,11 @@ Here are some examples.
 3. you can change the parameters of the *Max Detector* algorithm at line 16 when calling the function count_repetitions¹²
 4. launch *count_periodicities.py*
 
-¹: period_range is the maximum variation of duration froma a cycle to the next\
+¹: period_range is the maximum variation of duration from a cycle to the next\
 ²: N represents the number of frequencies to evaluate.
 
 # Citation
-If this was useful to you, please cite the article:
+If this was useful, please cite the article:
 
     @article{jacquelin:hal-03738161,
       TITLE = {Periodicity Counting in Videos with Unsupervised Learning of Cyclic Embeddings},
