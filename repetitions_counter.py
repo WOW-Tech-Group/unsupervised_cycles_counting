@@ -180,6 +180,6 @@ def multi_max_jumper(signal, debug=False, period_range=0.1, N=5, use_edge_refine
     return len(local_max_list), max(ratios)
 
 
-def count_repetitions(signal_1d) :
-    count, ratio = multi_max_jumper(signal_1d, debug=True, period_range=0.1, N=4, use_edge_refiner=True)
+def count_repetitions(signal_1d, period_range=0.10, N=4) :
+    count, ratio = multi_max_jumper(signal_1d, debug=True, period_range=period_range, N=N, use_edge_refiner=True)
     return count
